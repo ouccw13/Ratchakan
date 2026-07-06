@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apidev_path</key>
+	<string></string>
+	<key>enable_counter_service</key>
+	<false/>
+	<key>lb_score</key>
+	<string></string>
+	<key>ads_status</key>
+	<integer>0</integer>
+	<key>ads_url</key>
+	<string></string>
+	<key>s3_baseurl</key>
+	<string></string>
+	<key>image_bucket</key>
+	<string></string>
+	<key>ads_folder</key>
+	<string></string>
+	<key>pretest_mobile</key>
+	<string></string>
+	<key>pretest_tablet</key>
+	<string></string>
+	<key>ios_version</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kanit-Regular.otf">
+            <string>Kanit-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomMarkerView" customModule="ratchakan" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="6ZI-4v-EVr" id="DBu-aD-BqB"/>
+                <outlet property="lbValue" destination="MER-ii-hsi" id="WJz-w8-Rrb"/>
+                <outlet property="markerBoard" destination="DiL-Gc-yPF" id="Auy-6T-eE6"/>
+                <outlet property="markerStick" destination="aW8-Ev-ehn" id="p84-ZX-H3I"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6ZI-4v-EVr">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="20"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DiL-Gc-yPF">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="20"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aW8-Ev-ehn">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="20"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MER-ii-hsi">
+                                    <rect key="frame" x="0.0" y="3" width="80" height="12"/>
+                                    <fontDescription key="fontDescription" name="Kanit-Regular" family="Kanit" pointSize="10"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstItem="MER-ii-hsi" firstAttribute="leading" secondItem="aW8-Ev-ehn" secondAttribute="leading" id="EKg-kH-o4A"/>
+                                <constraint firstAttribute="trailing" secondItem="MER-ii-hsi" secondAttribute="trailing" id="TuH-8L-9DJ"/>
+                                <constraint firstAttribute="width" constant="80" id="diN-Eu-nmp"/>
+                                <constraint firstItem="MER-ii-hsi" firstAttribute="top" secondItem="aW8-Ev-ehn" secondAttribute="top" constant="3" id="jka-Of-DV8"/>
+                                <constraint firstAttribute="height" constant="20" id="zHW-CU-SPR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="aW8-Ev-ehn" firstAttribute="top" secondItem="DiL-Gc-yPF" secondAttribute="top" id="2dd-rO-V9W"/>
+                        <constraint firstItem="aW8-Ev-ehn" firstAttribute="centerY" secondItem="DiL-Gc-yPF" secondAttribute="centerY" id="jSX-fV-ooI"/>
+                        <constraint firstItem="aW8-Ev-ehn" firstAttribute="centerX" secondItem="DiL-Gc-yPF" secondAttribute="centerX" id="mXk-cm-0fv"/>
+                        <constraint firstItem="aW8-Ev-ehn" firstAttribute="leading" secondItem="DiL-Gc-yPF" secondAttribute="leading" id="rvI-2U-tu1"/>
+                        <constraint firstAttribute="trailing" secondItem="aW8-Ev-ehn" secondAttribute="trailing" id="vuW-gR-bsJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="KB5-9n-NQX"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KB5-9n-NQX" firstAttribute="trailing" secondItem="DiL-Gc-yPF" secondAttribute="trailing" id="B18-DY-lj3"/>
+                <constraint firstItem="DiL-Gc-yPF" firstAttribute="centerY" secondItem="6ZI-4v-EVr" secondAttribute="centerY" id="ak6-gv-Tcn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="161" y="45"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomNav" customModule="ratchakan" customModuleProvider="target">
+            <connections>
+                <outlet property="leftButton" destination="9ge-Fh-UQh" id="GUA-LY-02Y"/>
+                <outlet property="rightButton" destination="c0c-wv-wj3" id="avy-iB-30f"/>
+                <outlet property="titleNavLabel" destination="jFC-pi-1wA" id="dMC-cd-urD"/>
+                <outlet property="titleTrailConstraint" destination="PPQ-mQ-NHF" id="lzC-ZT-sBK"/>
+                <outlet property="toolBar" destination="bfg-nJ-zLF" id="ico-ku-Xe9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfg-nJ-zLF">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <items>
+                        <barButtonItem title="Item" id="9ge-Fh-UQh">
+                            <connections>
+                                <action selector="leftButtonPress:" destination="-1" id="LA0-C5-U5D"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="1vn-yq-Wyk"/>
+                        <barButtonItem title="Item" id="c0c-wv-wj3">
+                            <connections>
+                                <action selector="rightButtonPress:" destination="-1" id="xTJ-qw-pfM"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFC-pi-1wA">
+                    <rect key="frame" x="48" y="0.0" width="279" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="bfg-nJ-zLF" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="3bT-Wp-kq5"/>
+                <constraint firstItem="jFC-pi-1wA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="48" id="8Qz-1w-Rhe"/>
+                <constraint firstItem="bfg-nJ-zLF" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="9g4-P7-zro"/>
+                <constraint firstItem="jFC-pi-1wA" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" constant="-48" id="PPQ-mQ-NHF"/>
+                <constraint firstItem="bfg-nJ-zLF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="V0h-UL-xPT"/>
+                <constraint firstItem="jFC-pi-1wA" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="Xgx-Ri-MaD"/>
+                <constraint firstItem="jFC-pi-1wA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Zqb-XJ-coM"/>
+                <constraint firstItem="bfg-nJ-zLF" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="juY-RS-Sov"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="23.5" y="-130"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kanit-Light.otf">
+            <string>Kanit-Light</string>
+        </array>
+        <array key="Kanit-Regular.otf">
+            <string>Kanit-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HistoryPurchaseCollectionViewCell" customModule="ratchakan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สรุป ครูผู้ช่วย ภาค ข : พ.ร.บ. การศึกษาแห่งชาติ หมวดที่ 6 (Note)" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nX1-Ot-0xj">
+                    <rect key="frame" x="10" y="12" width="330" height="48"/>
+                    <fontDescription key="fontDescription" name="Kanit-Regular" family="Kanit" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STCS-rCdC-1662022196 (Free)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkK-RO-SLE">
+                    <rect key="frame" x="10" y="70" width="330" height="21"/>
+                    <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="วันที่ทำรายการ: 1 ก.ย. 65 15:49 น." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VD5-LE-oKz">
+                    <rect key="frame" x="10" y="101" width="330" height="21"/>
+                    <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สถานะ : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rG-0B-GFT">
+                    <rect key="frame" x="10" y="132" width="49" height="21"/>
+                    <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="14"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ชำระเรียบร้อย" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OD-Xc-UgK">
+                    <rect key="frame" x="58.999999999999993" y="132" width="77.333333333333314" height="21"/>
+                    <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="14"/>
+                    <color key="textColor" systemColor="systemGreenColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yk-Oy-4nP">
+                    <rect key="frame" x="10" y="169" width="330" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ez8-pj-fSx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5rG-0B-GFT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="1Qe-SI-voY"/>
+                <constraint firstAttribute="trailing" secondItem="JkK-RO-SLE" secondAttribute="trailing" constant="10" id="1eZ-l4-B1g"/>
+                <constraint firstItem="JkK-RO-SLE" firstAttribute="top" secondItem="nX1-Ot-0xj" secondAttribute="bottom" constant="10" id="JX3-KW-meR"/>
+                <constraint firstItem="VD5-LE-oKz" firstAttribute="top" secondItem="JkK-RO-SLE" secondAttribute="bottom" constant="10" id="Oee-1t-NGg"/>
+                <constraint firstAttribute="trailing" secondItem="nX1-Ot-0xj" secondAttribute="trailing" constant="10" id="PxE-eu-6Qh"/>
+                <constraint firstItem="VD5-LE-oKz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="S0a-U4-W5g"/>
+                <constraint firstAttribute="trailing" secondItem="5yk-Oy-4nP" secondAttribute="trailing" constant="10" id="VPH-e4-cdx"/>
+                <constraint firstAttribute="trailing" secondItem="VD5-LE-oKz" secondAttribute="trailing" constant="10" id="WaE-G7-HH3"/>
+                <constraint firstItem="nX1-Ot-0xj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ZMg-Q5-PaQ"/>
+                <constraint firstItem="5yk-Oy-4nP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ePk-bk-e9F"/>
+                <constraint firstItem="5rG-0B-GFT" firstAttribute="top" secondItem="VD5-LE-oKz" secondAttribute="bottom" constant="10" id="nR1-a1-a1O"/>
+                <constraint firstItem="JkK-RO-SLE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="pO6-Lt-d23"/>
+                <constraint firstAttribute="bottom" secondItem="5yk-Oy-4nP" secondAttribute="bottom" constant="10" id="vPF-Iv-2Z6"/>
+                <constraint firstItem="4OD-Xc-UgK" firstAttribute="centerY" secondItem="5rG-0B-GFT" secondAttribute="centerY" id="viw-bL-M3E"/>
+                <constraint firstItem="4OD-Xc-UgK" firstAttribute="leading" secondItem="5rG-0B-GFT" secondAttribute="trailing" id="yVB-MZ-9mX"/>
+                <constraint firstItem="nX1-Ot-0xj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="zVT-Ht-L1X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="paymentCodeLabel" destination="JkK-RO-SLE" id="K3t-Hn-qbm"/>
+                <outlet property="paymentNameLabel" destination="nX1-Ot-0xj" id="vsf-fs-pMP"/>
+                <outlet property="transactionDateLabel" destination="VD5-LE-oKz" id="yaD-RO-MMr"/>
+                <outlet property="transactionStatusLabel" destination="4OD-Xc-UgK" id="1vB-Fh-21v"/>
+            </connections>
+            <point key="canvasLocation" x="-337.40458015267177" y="59.859154929577471"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

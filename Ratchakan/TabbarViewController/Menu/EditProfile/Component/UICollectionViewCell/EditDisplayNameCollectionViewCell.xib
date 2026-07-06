@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kanit-Regular.otf">
+            <string>Kanit-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EditDisplayNameCollectionViewCell" customModule="ratchakan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ชื่อจริง" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiU-XO-Wdc">
+                    <rect key="frame" x="10" y="20.666666666666671" width="45" height="24"/>
+                    <fontDescription key="fontDescription" name="Kanit-Regular" family="Kanit" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ชื่อ" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6iv-Er-DGT">
+                    <rect key="frame" x="79" y="23.333333333333329" width="255" height="18.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="nnw-Lm-evS"/>
+                    </connections>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GL1-7e-reJ">
+                    <rect key="frame" x="10" y="54.666666666666664" width="330" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="gZk-du-cFv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KiU-XO-Wdc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="03F-1A-ckb"/>
+                <constraint firstItem="6iv-Er-DGT" firstAttribute="centerY" secondItem="KiU-XO-Wdc" secondAttribute="centerY" id="J49-iO-LnF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GL1-7e-reJ" secondAttribute="trailing" constant="10" id="JEd-Zd-htL"/>
+                <constraint firstItem="GL1-7e-reJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="OFS-BE-bY0"/>
+                <constraint firstItem="GL1-7e-reJ" firstAttribute="top" secondItem="KiU-XO-Wdc" secondAttribute="bottom" constant="10" id="gHy-qu-phY"/>
+                <constraint firstItem="6iv-Er-DGT" firstAttribute="leading" secondItem="KiU-XO-Wdc" secondAttribute="trailing" constant="24" id="hNA-Tm-p4s"/>
+                <constraint firstItem="KiU-XO-Wdc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="hSA-BH-uPZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6iv-Er-DGT" secondAttribute="trailing" constant="16" id="uPH-bQ-vf6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="detailNameTextField" destination="6iv-Er-DGT" id="MSx-kq-w1S"/>
+                <outlet property="titleNameLabel" destination="KiU-XO-Wdc" id="cu6-Wf-3MG"/>
+            </connections>
+            <point key="canvasLocation" x="140.45801526717557" y="153.16901408450704"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
