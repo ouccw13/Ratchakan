@@ -8,10 +8,9 @@
 
 import Foundation
 
-let API_DEV = "https://gateway.sobtid.me/official/v1/dev"
-let API_ROOT = "https://gateway.sobtid.me/official/v1"
+let API_DEV = ""
+let API_ROOT = ""
 let USE_API = API_ROOT
-let hash = "kWUd59GdbR-fAzA9uu1S3-YslKqeOSQC-jz4sC5ofFH-8ycopj23F1"
 
 class Path {
 	

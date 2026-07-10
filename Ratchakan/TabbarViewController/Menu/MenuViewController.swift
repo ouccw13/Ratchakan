@@ -575,10 +575,10 @@ class MenuViewController: CustomUIViewControllerNoNav, UISplitViewControllerDele
     func deleteAccountandRevokedAppleId(){
         // MARK: Create JWT type ES256
         // MARK: Assign developer information and token expiration setting
-        let myHeader = Header(kid: "M9QH23PNYQ")
-        let payload = ClaimsES256(iss: "48PB24XLFG", iat: Date().timeIntervalSince1970, exp: (Date().timeIntervalSince1970 + TimeInterval(15552000)), aud: "https://appleid.apple.com", sub: "com.sobtid.ratchakan")
+        let myHeader = Header(kid: "key_id")
+        let payload = ClaimsES256(iss: "team_id", iat: Date().timeIntervalSince1970, exp: (Date().timeIntervalSince1970 + TimeInterval(15552000)), aud: "https://appleid.apple.com", sub: "bundle_id")
         var myJwt = JWT(header: myHeader,claims: payload)
-        let privateKeyPath = Bundle.main.url(forResource: "AuthKey_M9QH23PNYQ", withExtension: "p8")
+        let privateKeyPath = Bundle.main.url(forResource: "name_p8_file", withExtension: "p8")
         let privateKey: Data = try! Data(contentsOf: privateKeyPath!,options: .alwaysMapped)
         let jwtSigner = JWTSigner.es256(privateKey: privateKey)
         let signJWT = try! myJwt.sign(using: jwtSigner)
