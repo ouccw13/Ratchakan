@@ -1,0 +1,82 @@
+{
+  "identifier" : "15643FC0",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "098AAA1A",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "package.starterPackage",
+      "referenceName" : "Package Starter",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "79",
+      "familyShareable" : false,
+      "internalID" : "1BF28C10",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "noteXXXX01",
+      "referenceName" : "NoteXXXX01",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "89",
+      "familyShareable" : false,
+      "internalID" : "CDFAEF5F",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "ratchakan.pretest.pretestxxxx01",
+      "referenceName" : "PretestXXXX01",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "99",
+      "familyShareable" : false,
+      "internalID" : "DA29491B",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Thailand",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.moneyCoach2023",
+      "referenceName" : "Money Coach 2023",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

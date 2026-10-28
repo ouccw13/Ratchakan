@@ -1,0 +1,183 @@
+/*
+@font-face{
+	font-family:"Kanit";
+	src: url(Kanit-Medium.otf) format("truetype");
+	font-weight:normal;
+	font-style:normal;
+	unicode-range: U+0E00–U+0E7F;
+}
+@font-face{
+	font-family:"Kanit Regular";
+	src: url(Kanit-Regular.otf) format("truetype");
+	font-weight:bold;
+	font-style:normal;
+	unicode-range: U+0E00–U+0E7F;
+}
+@font-face{
+	font-family:"Kanit Thin";
+	src: url(Kanit-Thin.otf) format("truetype");
+	font-weight:normal;
+	font-style:italic;
+	unicode-range: U+0E00–U+0E7F;
+}
+@font-face{
+	font-family:"Kanit Light";
+	src: url(Kanit-Light.otf) format("truetype");
+	font-weight:bold;
+	font-style:italic;
+	unicode-range: U+0E00–U+0E7F;
+}
+
+body {
+	padding:0em;
+	margin:0em;
+	font-size:24px;
+	line-height:1.2;
+	min-width:200px;
+	font-family:"Kanit";
+	background-color:transparent;
+}
+div {
+	padding:16px 16px;
+	text-align:left;
+	margin:0em;
+	color:#4A4A4A;
+}
+div.choice {
+	margin-left:-16px;
+}
+
+div.list {
+	font-size:14px;
+	min-width:200px;
+	margin-left:-16px;
+	margin-top:-16px;
+}
+
+
+math {
+	font-size:0.65em;
+	line-height: 1.3;
+	margin-left:0em;
+	margin-right:0.5em;
+	display: inline;
+	max-width:320px;
+}
+
+.sepia{
+	color:#704214;
+}
+.night{
+	color:#FFFFFF;
+}
+.normal{
+	color:#4A4A4A;
+}
+
+/*img{ width:100% !important; }*/
+/*table{ width:100% !important; }*/
+
+@font-face{
+	font-family:"TH Sarabun New";
+	src: url(THSarabunNew.ttf) format("truetype");
+	font-weight:normal;
+	font-style:normal;
+	unicode-range: U+0E00–U+0E7F;
+}
+@font-face{
+	font-family:"TH Sarabun New Bold";
+	src: url(THSarabunNew-Bold.ttf) format("truetype");
+	font-weight:bold;
+	font-style:normal;
+	unicode-range: U+0E00–U+0E7F;
+}
+@font-face{
+	font-family:"TH Sarabun New Italic";
+	src: url(THSarabunNew-Italic.ttf) format("truetype");
+	font-weight:normal;
+	font-style:italic;
+	unicode-range: U+0E00–U+0E7F;
+}
+@font-face{
+	font-family:"TH Sarabun New BoldItalic";
+	src: url(THSarabunNew-BoldItalic.ttf) format("truetype");
+	font-weight:bold;
+	font-style:italic;
+	unicode-range: U+0E00–U+0E7F;
+}
+
+body {
+	padding:0em;
+	margin:0em;
+	font-size:22px;
+	line-height:1;
+	min-width:280px;
+	font-family:"TH Sarabun New";
+	background-color:transparent;
+}
+div {
+	padding:16px 16px;
+	padding-top: 12px;
+	text-align:left;
+	margin:0em;
+	color:#4A4A4A;
+}
+div.choice {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0;
+	padding-top: 16px;
+}
+
+div.choiceSolution {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0;
+}
+
+div.list {
+	font-size:22px;
+	min-width:200px;
+	margin-left:-16px;
+	margin-top:-16px;
+}
+
+math {
+	font-family:"TH Sarabun New";
+	alignment-baseline: centerline;
+/*	font-size:24px;*/
+	font-size:0.65em;
+	line-height: 1.3;
+	margin-left:0em;
+	margin-right:0.5em;
+	display: inline;
+	max-width:280px;
+}
+
+.sepia{
+	color:#704214;
+}
+.night{
+	color:#FFFFFF;
+}
+
+.normal{
+	color:#4A4A4A;
+}
+
+img{
+	text-align: center !important;
+	/*	width:100% !important;*/
+}
+@media only screen and (max-width: 325px) {
+	/* For mobile phones: */
+	img{
+		/*		text-align: center !important;*/
+		width:100% !important;
+	}
+}
+table{ width:100% !important; }
+
+

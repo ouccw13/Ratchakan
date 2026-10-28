@@ -1,0 +1,632 @@
+{
+  "identifier" : "9081FEAF",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "1378180136",
+      "localizations" : [
+        {
+          "description" : "สอบข้อสอบชุด ข้าราชการพลเรือน",
+          "displayName" : "ข้าราชการพลเรือน 1 ปี",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.JyWaQTC0",
+      "referenceName" : "ข้าราชการพลเรือน",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "12.99",
+      "familyShareable" : false,
+      "internalID" : "1429438763",
+      "localizations" : [
+        {
+          "description" : "ข้าราชการพลเรือน + ปลัดอำเภอ",
+          "displayName" : "ข้าราชการพลเรือน + ปลัดอำเภอ",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.HTKBVQ2J",
+      "referenceName" : "ข้าราชการพลเรือน + ปลัดอำเภอ",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "1429436581",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย + ข้าราชการพลเรือน + ปลัดอำเภอ",
+          "displayName" : "ครูผู้ช่วย,พลเรือน,ปลัดอำเภอ",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.nxAOprBB",
+      "referenceName" : "ครูผู้ช่วย + ข้าราชการพลเรือน + ปลัดอำเภอ",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "12.99",
+      "familyShareable" : false,
+      "internalID" : "1429438521",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย + ปลัดอำเภอ",
+          "displayName" : "ครูผู้ช่วย + ปลัดอำเภอ",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.D79m3eVa",
+      "referenceName" : "ครูผู้ช่วย + ปลัดอำเภอ",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "1377119875",
+      "localizations" : [
+        {
+          "description" : "ทำข้อสอบในหมวดครูผู้ช่วย 1 ปี",
+          "displayName" : "ครูผู้ช่วย 1 ปี",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.YLRJvEbS",
+      "referenceName" : "ครูผู้ช่วย 1 ปี",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "12.99",
+      "familyShareable" : false,
+      "internalID" : "1377120688",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วยและข้าราชการพลเรือน",
+          "displayName" : "ครูผู้ช่วยและข้าราชการพลเรือน",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.kZbCbce7",
+      "referenceName" : "ชุด ครูผู้ช่วย + ข้าราชการพลเรือน",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1439172485",
+      "localizations" : [
+        {
+          "description" : "นักวิชาการศึกษา (ภาค ก) 1 ปี",
+          "displayName" : "นักวิชาการศึกษา (ภาค ก)",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.eLjQbu3x",
+      "referenceName" : "นักวิชาการศึกษา (ภาค ก)",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1439172673",
+      "localizations" : [
+        {
+          "description" : "นักวิชาการศึกษา (ภาค ข) 1 ปี",
+          "displayName" : "นักวิชาการศึกษา (ภาค ข)",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.DpUsG8XY",
+      "referenceName" : "นักวิชาการศึกษา (ภาค ข)",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "1429403826",
+      "localizations" : [
+        {
+          "description" : "ข้อสอบปลัดอำเภอ",
+          "displayName" : "ปลัดอำเภอ",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.1YdJCwX7",
+      "referenceName" : "ปลัดอำเภอ",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1435426167",
+      "localizations" : [
+        {
+          "description" : "สอบท้องถิ่น ภาค ก",
+          "displayName" : "สอบท้องถิ่น ภาค ก",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.f2eMhw8f",
+      "referenceName" : "สอบท้องถิ่น ภาค ก",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1439172668",
+      "localizations" : [
+        {
+          "description" : "สำนักงานคณะกรรมการการเลือกตั้ง 1 ปี",
+          "displayName" : "สำนักงานคณะกรรมการการเลือกตั้ง",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.package.Rg0neRgk",
+      "referenceName" : "สำนักงานคณะกรรมการการเลือกตั้ง",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6445809908",
+      "localizations" : [
+        {
+          "description" : "เจาะลึกแนวข้อสอบ ก.พ. ปี 2566",
+          "displayName" : "เจาะลึกแนวข้อสอบ ก.พ. ปี 2566",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.TOGlWfA7SdFysFh7a7wr2MUAPDJJ",
+      "referenceName" : "Pretest - ข้าราชการพลเรือน ปี 2566",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1568071926",
+      "localizations" : [
+        {
+          "description" : "Pretest กพ. ภาค ก. ปี 64 ชุด 2",
+          "displayName" : "Pretest กพ. ภาค ก. ปี 64 ชุด 2",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.anamMIF4NKFQGzmBNvPbFE8u6RKU",
+      "referenceName" : "Pretest - ข้าราชการพลเรือน ภาค ก ปี 2564 ชุดที่ 2",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1503308038",
+      "localizations" : [
+        {
+          "description" : "ข้อสอบพรีเทสข้าราชการพลเรือน ภาค ก. ปี 2563",
+          "displayName" : "Pretest - ข้อสอบ ก.พ. ปี 2563",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.BzdI0fmWcXZzqTQFqGgvEmMi8RXz",
+      "referenceName" : "Pretest - ข้าราชการพลเรือน ภาค ก. ปี 2563",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1568071376",
+      "localizations" : [
+        {
+          "description" : "Pretest กพ ภาค ก. ปี 64 ชุดที่ 1",
+          "displayName" : "Pretest กพ. ภาค ก. ปี 64 ชุด 1",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.41vo5xIngA5omrIm6dG4uVQlUadL",
+      "referenceName" : "Pretest - ข้าราชการพลเรือน ภาค ก. ปี 2564 ชุดที่ 1",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1517562461",
+      "localizations" : [
+        {
+          "description" : "Pretest - ครูผู้ช่วย ภาค ก ปี 63",
+          "displayName" : "Ptest - ครูผู้ช่วย ภาค ก ปี 63",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.regular.t8xPewUuaUSFYbNkl5zefQBgdIab",
+      "referenceName" : "Pretest - ครูผู้ช่วย ภาค ก ปี 63",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1539380906",
+      "localizations" : [
+        {
+          "description" : "Pretest - ครูผู้ช่วย ภาค ก ปี 63-2",
+          "displayName" : "PT - ครูผู้ช่วย ภาค ก ปี 63-2",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.JgNBKdIyJZklECd048Il9K5ZtAFL",
+      "referenceName" : "Pretest - ครูผู้ช่วย ภาค ก ปี 63-2",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1574478528",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ก คิดวิเคราะห์ 1",
+          "displayName" : "ครูผู้ช่วย ก คิดวิเคราะห์ 1",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.hC49DrbIBh6LKilMMxo7UOEGd6lk",
+      "referenceName" : "Pretest - ครูผู้ช่วย ภาค ก. ความสามารถในการคิดวิเคราะห์ ชุดที่ 1",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1574480586",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ก คิดวิเคราะห์ 2",
+          "displayName" : "ครูผู้ช่วย ก คิดวิเคราะห์ 2",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.z44MQBrdFdGRnWH0xb7RYbCcSuOe",
+      "referenceName" : "Pretest - ครูผู้ช่วย ภาค ก. ความสามารถในการคิดวิเคราะห์ ชุดที่ 2",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1467348561",
+      "localizations" : [
+        {
+          "description" : "Pretest ข้อสอบข้าราชการพลเรือน ภาค ก ปี 2019",
+          "displayName" : "Pretest ข้าราชการพลเรือน ก2019",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.cTMKm9MmuOsfUmdnqO9BhHNd3wzy",
+      "referenceName" : "Pretest ข้าราชการพลเรือน ภาค ก 2019",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1476816340",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ภาค ก ปี 62 (Pretest)",
+          "displayName" : "ครูผู้ช่วย ภาค ก ปี 62",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.Bea1WhPbRNMiUYduOlYznqmsT2JO",
+      "referenceName" : "ครูผู้ช่วย ภาค ก ปี 62 (Pretest)",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1422653388",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ภาค ก. 2018",
+          "displayName" : "ครูผู้ช่วย ภาค ก. 2018",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.ZAXB4oqZJAeqrjx5kkZ61Fanw2iT",
+      "referenceName" : "ครูผู้ช่วย ภาค ก. 2018",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1574535744",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ก ข้าราชการที่ดี 1",
+          "displayName" : "ครูผู้ช่วย ก ข้าราชการที่ดี 1",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.HosLDMTbMPSacHnzsqP8jAA9Mh3G",
+      "referenceName" : "ครูผู้ช่วย ภาค ก. ความรู้และลักษณะการเป็นข้าราชการที่ดี ชุดที่ 1",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1574536349",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ก ข้าราชการที่ดี 2",
+          "displayName" : "ครูผู้ช่วย ก ข้าราชการที่ดี 2",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.SyYVAcqqU8kRvOvqOR5zNxS4Z67m",
+      "referenceName" : "ครูผู้ช่วย ภาค ก. ความรู้และลักษณะการเป็นข้าราชการที่ดี ชุดที่ 2",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1574535101",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ก ทักษะภาษาอังกฤษ 1",
+          "displayName" : "ครูผู้ช่วย ก ทักษะภาษาอังกฤษ 1",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.lL4dGtlBMwK3IOuIUFQaAgUALSGd",
+      "referenceName" : "ครูผู้ช่วย ภาค ก. ทักษะภาษาอังกฤษ ชุดที่ 1",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1574535433",
+      "localizations" : [
+        {
+          "description" : "ครูผู้ช่วย ก ทักษะภาษาอังกฤษ 2",
+          "displayName" : "ครูผู้ช่วย ก ทักษะภาษาอังกฤษ 2",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.MTSAjEVZm3MgYOuBjGAOGJKqyqha",
+      "referenceName" : "ครูผู้ช่วย ภาค ก. ทักษะภาษาอังกฤษ ชุดที่ 2",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1471594742",
+      "localizations" : [
+        {
+          "description" : "ข้อสอบ Pretest สอบท้องถิ่น ภาค ก ปี 62",
+          "displayName" : "สอบท้องถิ่น ภาค ก ปี 62",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.LhzcCl0OOQ53if77jsT0JS9f50AK",
+      "referenceName" : "สอบท้องถิ่น ภาค ก ปี 62 (Pretest)",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1553030763",
+      "localizations" : [
+        {
+          "description" : "พรีเทสสอบท้องถิ่น ภาค ก ปี 64",
+          "displayName" : "สอบท้องถิ่น ภาค ก ปี 64",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.sobtid.ratchakan.pretest.17NWC42E9Zc9NfBU6XAV0BlnYZJL",
+      "referenceName" : "สอบท้องถิ่น ภาค ก ปี 64",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "1531274507",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 149 บาท",
+          "displayName" : "โน้ตราคา 149 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.c9b9a9a788d045c08acd13463517f119",
+      "referenceName" : "โน้ตราคา 149 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1531274770",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 179 บาท",
+          "displayName" : "โน้ตราคา 179 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.1e5bcd7191274757a47904498b6ea149",
+      "referenceName" : "โน้ตราคา 179 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1531262734",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 19 บาท",
+          "displayName" : "โน้ตราคา 19 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.fec2ef1647894c1e85671d7b64041319",
+      "referenceName" : "โน้ตราคา 19 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "1531274756",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 219 บาท",
+          "displayName" : "โน้ตราคา 219 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.22f05370fbd84054b83ff4cb95746179",
+      "referenceName" : "โน้ตราคา 219 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "1531274923",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 249 บาท",
+          "displayName" : "โน้ตราคา 249 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.65a03c51776e415d814e877263cfe199",
+      "referenceName" : "โน้ตราคา 249 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1531263095",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 35 บาท",
+          "displayName" : "โน้ตราคา 35 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.d5d7564258fe4a96b9a2fa46b680bf29",
+      "referenceName" : "โน้ตราคา 35 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1531263428",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 69 บาท",
+          "displayName" : "โน้ตราคา 69 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.89a619f3dfa2443ea0219f33d6fa8259",
+      "referenceName" : "โน้ตราคา 69 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1531261153",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 9 บาท",
+          "displayName" : "โน้ตราคา 9 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.cd0fbbcbca8e41d5b6a3c92c1c343209",
+      "referenceName" : "โน้ตราคา 9 บาท",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1531263362",
+      "localizations" : [
+        {
+          "description" : "โน้ตชุดนี้มีราคา 99 บาท",
+          "displayName" : "โน้ตราคา 99 บาท",
+          "locale" : "th"
+        }
+      ],
+      "productID" : "com.official.note.e21f670ef08f41428d93065bf5f2f289",
+      "referenceName" : "โน้ตราคา 99 บาท",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1358182696",
+    "_askToBuyEnabled" : false,
+    "_developerTeamID" : "48PB24XLFG",
+    "_disableDialogs" : true,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 721630679.63353705,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : {
+          "index" : 1,
+          "type" : "purchase"
+        },
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : {
+          "index" : 3,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
